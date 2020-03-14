@@ -12,7 +12,7 @@ def status_check(para):
     print(campus_status)
 
 
-    weather = {'wind':'green','winds':'green', 'storm':'indigo','storms':'indigo','lighting':'yellow','thunder':'yellow','snow':'blue','snowfall':'blue','ice':'blue','icy':'blue','earthquake':'orange','earthquakes':'orange','fire':'red','fires':'red'}
+    weather = {'wind':'green','winds':'green', 'storm':'cyan','storms':'cyan','lighting':'yellow','thunder':'yellow','snow':'blue','snowfall':'blue','ice':'blue','icy':'blue','earthquake':'orange','earthquakes':'orange','fire':'red','fires':'red'}
     for i in weather:    
         if i in paragraph:
             weather_status = weather[i] 
